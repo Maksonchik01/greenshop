@@ -845,3 +845,141 @@ line-height: 214%;
 color: #3d3d3d;
 margin-top: 7px;
 }
+
+.container-form{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.close-btn{
+  display: block;
+  margin-left: auto;
+  margin-top: 13px;
+  margin-right: 13px;
+  margin-bottom: 21px;
+  border: none;
+  background-color: transparent;
+}
+.login-box{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.login-link{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 80%;
+color: #3d3d3d;
+padding-right: 14px;
+border-right: 1px solid #3d3d3d;;
+text-decoration: none;
+}
+.register-link{
+  text-decoration: none;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 80%;
+color: #46a358;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+.form-title{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color: #3d3d3d;
+margin-bottom: 14px;
+text-align: center;
+}
+.form-input{
+
+  width: 300px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 114%;
+color: #a5a5a5;
+border: 1px solid #eaeaea;
+border-radius: 5px;
+
+}
+.register-btn{
+  display: block;
+  margin: 0 auto;
+border: none;
+border-radius: 5px;
+width: 300px;
+height: 45px;
+background: #46a358;
+ font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+color: #fff;
+margin-bottom: 36px;
+}
+.form-text{
+  margin-bottom: 27px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color: #3d3d3d;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6px;
+padding-right: 6px;
+}
+.form-text::before{
+  content: "";
+  border-bottom: 1px solid #eaeaea;
+  width: 97px;
+}
+.form-text::after{
+  content: "";
+  border-bottom: 1px solid #eaeaea;
+  width: 97px;
+}
+.register-with-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.register-with{
+  display: flex;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 13px;
+line-height: 123%;
+text-align: center;
+color: #727272;
+border: 1px solid #eaeaea;
+border-radius: 5px;
+width: 300px;
+height: 40px;
+align-items: center;
+justify-content: center;
+gap: 14px;
+text-decoration: none;
+}
+.bottom-color{
+  margin-top: 40px;
+  height: 10px;
+  background: #46a358;
+}
